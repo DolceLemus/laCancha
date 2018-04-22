@@ -1,0 +1,79 @@
+div#grass {
+    background-color: rgb(16, 163, 57);
+    height: 400px;
+    width: 700px;
+    position: relative;
+    left: 25%;
+}
+
+div#field {
+    border: 3px solid rgb(255, 255, 255);
+    height: 350px;
+    width: 650px;
+    left: 25px;
+    position: absolute;
+    top: 25px;
+}
+
+div {
+    border: 1px solid rgb(249, 247, 250);
+    height: 100px;
+    width: 70px;
+}
+
+#center {
+    border: 3px solid rgb(255, 255, 255);
+    height: 125px;
+    position: absolute;
+    width: 125px;
+}
+
+#goalRight {
+    right: 0;
+    border-right: none;
+}
+
+#goalLeft {
+    border-left: none;
+}
+
+#center {
+    left: 40%;
+    top: 33%;
+    border-radius: 50%;
+}
+
+#ballOne {
+    top: 31%;
+    left: 9%;
+}
+
+#ballTwo {
+    top: 10%;
+    left: 48%;
+}
+
+#ballThree {
+    top: 61%;
+    left: 83%;
+}
+
+.goal {
+    border: 3px solid rgb(255, 255, 255);
+    height: 125px;
+    width: 70px;
+    position: absolute;
+    top: 33%;
+}
+
+.ballon {
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    background-image: url("./assets/ball.png");
+}
+
+
+/* mouse-over - - */
