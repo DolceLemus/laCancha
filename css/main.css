@@ -68,11 +68,11 @@ div {
 
 .ballon {
     border-radius: 50%;
-    height: 15px;
-    width: 15px;
+    height: 150px;
+    width: 150px;
     background-color: rgb(255, 255, 255);
     position: absolute;
-    background-image: url("./assets/ball.png");
+    /* background-image: url(../assets/ball.png);/*la imagen se añade correctamente, es necesario solo ajustarla al tamaño */
 }
 
 
